@@ -1,4 +1,4 @@
-# Metadata Collector.py v1.0
+# Spatial Metadata Collector.py v1.0
 # A class to collect metadata on flat spatial files.
 # Created by Jamie Tasker on 18/01/2018.
 # Last updated on 18/01/2017.
