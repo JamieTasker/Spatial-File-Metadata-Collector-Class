@@ -1,10 +1,15 @@
 # Spatial File Metadata Collector Class
 **PLEASE NOTE - Readme not quite finished yet. Refer to comments in SpatialMetadata.py for more information.**
 
-A Python Class to collect simple Metadata on several GIS file types using Fiona and Shapely.
+A Python 3 Class to collect simple Metadata on several GIS file types using Fiona and Shapely.
 
 I originally wrote this class for a former employer using GDAL Python bindings. I am now releasing
 it to the world using the fantastic Shapely and Fiona libraries instead :).
+
+## Required libraries
+In order to use this class, you must have the following libraries correctly installed:
+Fiona: <https://pypi.python.org/pypi/Fiona>
+Shapely: <https://pypi.python.org/pypi/Shapely>
 
 ## How to use
 Simply copy the class into your script or copy SpatialMetadata.py into your project folder and 
@@ -37,4 +42,7 @@ layer.shp
 # the object was created. This means that if you initially point to a .shp file, it will only 
 # display the date modified of this file, not the associated .dbf, .prj or .shx files.
 my_layer.get_date_modified()
+```
 
+## Acknowledgements 
+This class uses the brilliant Fiona and Shapely libraries developed by Toblerity <https://github.com/Toblerity>
