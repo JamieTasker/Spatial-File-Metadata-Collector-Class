@@ -10,6 +10,7 @@ it to the world using the fantastic Shapely and Fiona libraries instead :).
 In order to use this class, you must have the following libraries correctly installed:
 
 Fiona: <https://pypi.python.org/pypi/Fiona>
+
 Shapely: <https://pypi.python.org/pypi/Shapely>
 
 ## How to use
